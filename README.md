@@ -48,7 +48,7 @@ export const MyComponent = (props: any) => {
 
 ```
 
-### Navigating to a new screen (unwinding the stack if the screen is already in the stack and the platform supports stacks).
+### Navigating to a new screen (unwinding the stack if the screen is already in the stack and the platform supports stacks)
 
 ```ts
 
@@ -75,7 +75,7 @@ export const MyComponent = (props: any) => {
 
 ```
 
-### Navigating to a new screen (always pushing to the stack).
+### Navigating to a new screen (always pushing to the stack)
 
 ```ts
 
@@ -162,7 +162,7 @@ export const MyComponent = (props) => {
 
 ```
 
-### Navigating to a new screen (unwinding the stack if the screen is already in the stack and the platform supports stacks).
+### Navigating to a new screen (unwinding the stack if the screen is already in the stack and the platform supports stacks)
 
 ```js
 
@@ -189,7 +189,7 @@ export const MyComponent = (props) => {
 
 ```
 
-### Navigating to a new screen (always pushing to the stack).
+### Navigating to a new screen (always pushing to the stack)
 
 ```js
 

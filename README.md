@@ -214,7 +214,7 @@ export const MyComponent = (props) => {
 	// ...
 };
 
-``
+```
 
 ## Typescript
 

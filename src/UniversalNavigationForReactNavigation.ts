@@ -17,8 +17,8 @@ export class UniversalNavigationForRectNavigation implements UniversalNavigation
      */
     getParam<T>(
         param: string,
-        fallback?: T
-    ): T | undefined {
+        fallback: T
+    ): T {
         return this.props.navigation.getParam(param, fallback);
     }
     

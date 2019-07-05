@@ -31,7 +31,7 @@ export class UniversalNavigationForConnectedReactRouter implements UniversalNavi
      * @param param
      * @param fallback
      */
-    getParam<T>(param: string, fallback?: T): T | undefined {
+    getParam<T>(param: string, fallback: T): T {
         // First try the params in the url.
         if (this.props.match && this.props.match.params) {
             let ret = this.props.match.params[param];

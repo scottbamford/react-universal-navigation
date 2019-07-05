@@ -9,7 +9,7 @@ export interface UniversalNavigation {
      */
     getParam<T>(
         param: string,
-        fallback?: T
+        fallback: T
     ): T | undefined;
 
     /**

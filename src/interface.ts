@@ -10,7 +10,7 @@ export interface UniversalNavigation {
     getParam<T>(
         param: string,
         fallback: T
-    ): T | undefined;
+    ): T;
 
     /**
      * Navigate back to the previous screen.

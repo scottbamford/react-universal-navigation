@@ -1,6 +1,6 @@
 {
   "name": "react-universal-navigation",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Universal access to navigation properties and methods for different react navigators including react-navigation (for react-native) and connected-react-router for react-redux.",
   "main": "dist/lib/commonjs/index.js",
   "module": "dist/lib/esm/index.js",
